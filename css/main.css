@@ -1,13 +1,12 @@
 body, html {
   font-family:Rockwell;
-  background-color:black;
   text-decoration:none;
-  overflow-x:hidden;
 }
 
 
 body {
   height: 100vh;
+  background-image:"D:\Pictures\Trung's pics\photos-homestay\IMG_3001.jpg";
 }
 
 div.pagewidth {
@@ -16,6 +15,10 @@ div.pagewidth {
   overflow:hidden;
 }
 
+div.halfpagewidth {
+  display:block;
+  height:50px;
+}
 
 
 a, a:hover, a:active, a:focus {
@@ -34,73 +37,22 @@ a, a:hover, a:active, a:focus {
 	
 }
 
-
-.selfie {
-  position:relative;
-  top:0%;
-  height:auto;
-  width:100%;
-  border-top: solid 100px black;
-  border-bottom: solid 100px black;
-
-}
 .name {
-  position:absolute;
+  position:relative;
   font-size:40px;
-  top:5%;
   width: auto;  
-  margin:10px 10px;
   height: auto;
   color: white;
   left:20%;
-  z-index:4;
-  margin-top:100px;
 
 }
 
 .quest {
-  position:absolute;
-  top:12%;
+  position:relative;
   font-size:30px;
-  padding-top:1%;
-  padding-bottom:2%;
   font-size:20px;
   right:20%;
-  z-index:4;
-  margin-top:100px;
-
 }
-
-
-
-.borderMe {
-  position:relative;
-  width:50%;
-  left:25%;
-  border-top:solid 5px white;
-  margin-bottom:40px;
-}
-
-.sectionLabel {
-  display:inline-block;
-  text-decoration:none;
-  font-size:40px;
-}
-
-.projectSection {
-  display:block;
-  
-  text-align:center;
-  width:60%;
-  margin:0 auto;
-	
-}
-
-.column1 {
-  position:relative;
-  height:700px;
-}
-
 
 
 .colored {
@@ -109,32 +61,7 @@ a, a:hover, a:active, a:focus {
 
 }
 
-.pic {
-  max-width:75%;
-  max-height:75%;
-  height: auto;
-  width:200px;
-}
 
-.photoSection {
-  width:100%;
-  margin:0 0;
-  padding: 0 0;
-  
-}
-.travelPic {
-  max-width:100%;
-  max-height:100%;
-  width:400px;
-  height:auto;
-  overflow:hidden;
-  margin-bottom:50px;
-}
-
-.column2 {
-  position:relative;
-  height:700px;
-}
 
 .padding-0 {
   padding:0 0;
@@ -149,5 +76,19 @@ a, a:hover, a:active, a:focus {
   line-height:50px;
   margin-bottom:50px;
 }
+
+#slideshow, img.bgM {
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index:-9999;
+}
+
+
+
 	
 
