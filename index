@@ -7,7 +7,7 @@
   
   <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'/>
   <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'/>
-  <link rel='stylesheet' href='main.css'/>
+  <link rel='stylesheet' href='css/main.css'/>
 	  
 
 </head>
@@ -50,7 +50,7 @@
 	
 <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js'></script>
-<script src="index.js"></script>
+<script src="js/index.js"></script>
 	
 	
 </html>
