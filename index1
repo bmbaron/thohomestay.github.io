@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>tho homestay</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'/>
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'/>
+  <link rel='stylesheet' href='css/main1.css'/>
+	  
+
+</head>
+
+
+<body>
+
+<div class="container-fluid">
+	<div class="row">          
+		<div class="col-md-12 menu">
+			<html style="color:black;">  HOME </html>
+		    <html style="color:black;">  ABOUT </html>
+		    <html style="color:black;">  PHOTOS </html>
+		    <html style="color:black;">  CONTACT US </html>
+
+
+		</div>
+	</div>
+	
+	<div class="row">
+		  
+		  
+		<div class="col-md-3 pagewidth"></div>
+
+		<div class="col-md-6 pagewidth" id="intro">
+			<div class="name"> Tho Homestay </div>
+			<div class="quest"> experience the real Vietnam </div>
+			<img src="" alt="..." class="selfie">
+			<a name="section1"></a>
+		</div>
+
+		<div class="col-md-3 pagewidth"></div>
+    
+	</div>
+	
+</div>
+	
+</body>
+  
+	
+<script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js'></script>
+<script src="js/index.js"></script>
+	
+	
+</html>
