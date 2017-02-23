@@ -7,7 +7,7 @@
   
   <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'/>
   <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'/>
-  <link rel='stylesheet' href='css/main.css'/>
+  <link rel='stylesheet' href='css/main1.css'/>
 	  
 
 </head>
@@ -15,7 +15,18 @@
 
 <body>
 
-<nav class="navbar navbar-default">
+<div id="slideshow">
+  <img src="file://D:/Pictures/Trung's pics/photos-homestay/IMG_3001.jpg" class="bgM"/>
+  <img src="file://D:/Pictures/Trung's pics/photos-homestay/IMG_3018.jpg" class="bgM"/>
+  <img src="file://D:/Pictures/Trung's pics/photos-homestay/IMG_2984.jpg" class="bgM"/>
+  <img src="file://D:/Pictures/Trung's pics/photos-homestay/UPGJ0932.jpg" class="bgM"/>
+  <img src="file://D:/Pictures/Trung's pics/photos-homestay/IMG_5993.jpg" class="bgM"/>
+  
+</div>
+
+
+
+<nav class="navbar navbar-default" style="font-size:40px; background-color:black; border-style:none;">
  <div class="container-fluid">
  <!-- Brand and toggle get grouped for better mobile display -->
  <div class="navbar-header">
@@ -45,35 +56,6 @@
  </div><!-- /.container-fluid -->
  </nav>
 
-
-
-<div class="container-fluid">
-
-	<div class="row">
-		  
-		  
-		<div class="col-md-3 pagewidth"></div>
-
-		<div class="col-md-6 pagewidth" id="intro">
-			<div class="name"> Tho Homestay </div>
-			<div class="quest"> experience the real Vietnam </div>
-			<img src="" alt="..." class="selfie">
-			<a name="section1"></a>
-		</div>
-
-		<div class="col-md-3 pagewidth"></div>
-    
-	</div>
-	
-
-	<div class="row">
-		<div class="text-center col-md-12 colored copyright">
-			copyright &copy;  2016 Tho Homestay
-		</div>
-	</div>
-	
-</div>
-
 	
 </body>
   
@@ -81,6 +63,20 @@
 <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js'></script>
 <script src="js/index.js"></script>
+
+<script src='http://malsup.github.io/jquery.cycle.all.js'></script>
+<script type="text/javascript" src="scripts/jquery.cycle.all.2.74.js"></script>
+<script>
+$(document).ready(function() {
+	$('#slideshow').cycle({
+	fx: 'fade',
+	pager: '#smallnav',
+	pause:   1,
+	speed: 1800,
+	timeout:  3500
+	});
+});
+</script>
 	
 	
 </html>
