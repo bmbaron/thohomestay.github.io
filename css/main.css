@@ -70,11 +70,12 @@ a, a:hover, a:active, a:focus {
 	
 
 .copyright {
-  position:relative;
-  height:50px;
+  position:fixed;
+  bottom:0%;
+  height:auto;
+  width:100%;
   background:black;
-  line-height:50px;
-  margin-bottom:50px;
+  line-height:100px;
 }
 
 #slideshow, img.bgM {
