@@ -90,6 +90,21 @@ a, a:hover, a:active, a:focus {
   z-index:-9999;
 }
 
+
+
 .button {
-  text-align:center;
+	vertical-align:middle;
+  background: black;
+  border-radius:20px;
+  font-size:5vh;
 }
+
+.button:hover{
+ background:green;
+ color:black;
+
+}	
+
+
+	
+
