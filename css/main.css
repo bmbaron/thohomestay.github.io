@@ -74,7 +74,7 @@ a, a:hover, a:active, a:focus {
   position:fixed;
   bottom:0%;
   height:auto;
-  width:102vw;
+  width:100%;
   background:black;
   line-height:50px;
 }
