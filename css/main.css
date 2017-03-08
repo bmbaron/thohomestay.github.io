@@ -13,11 +13,6 @@ html {
   background-size: cover;
 }
 
-body {
-  background-image: url("https://raw.githubusercontent.com/thohomestay/thohomestay.github.io/master/thologobig.jpg");
-  background-repeat:no-repeat;
-  background-position: center center;
-}
 
 div.pagewidth {
   display:block;
