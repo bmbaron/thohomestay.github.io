@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  background-image:("thologobig.jpg");
+  background-image: url("thologobig.jpg");
 }
 
 div.pagewidth {
