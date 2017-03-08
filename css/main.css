@@ -13,6 +13,9 @@ html {
   background-size: cover;
 }
 
+body {
+  background-image=("thologobig.jpg");
+}
 
 div.pagewidth {
   display:block;
